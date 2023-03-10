@@ -1,4 +1,4 @@
-import { createButton } from './Button';
+import { createButton, animateButton } from './Button';
 
 // More on default export: https://storybook.js.org/docs/html/writing-stories/introduction#default-export
 export default {
@@ -46,3 +46,10 @@ Small.args = {
   size: 'small',
   label: 'Button',
 };
+
+export const Animate = Template.bind({});
+Animate.args = {
+  animate: true,
+  label: 'Button',
+};
+animateButton();

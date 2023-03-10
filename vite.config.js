@@ -19,6 +19,7 @@ export default () => {
       rollupOptions: {
         input: resolve(__dirname, 'src/index.js'),
         output: {
+          entryFileNames: '[name].js',
           assetFileNames: '[name].[ext]',
         },
       },
