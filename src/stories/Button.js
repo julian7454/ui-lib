@@ -24,6 +24,7 @@ const createButton = ({
 
 const animateButton = (() => {
   document.addEventListener('DOMContentLoaded', () => {
+    console.log(1)
       document.querySelector('.storybook-button--animate')?.addEventListener('mouseleave', e => {
           const button = e.target;
           // @ts-ignore

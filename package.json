@@ -2,7 +2,7 @@
   "name": "@zhiuanh/ui-lib",
   "version": "1.2.2",
   "description": "",
-  "main": "index.js",
+  "module": "./dist/index.es.js",
   "scripts": {
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",

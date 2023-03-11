@@ -1,5 +1,5 @@
 import './index.scss';
 
 import { animateButton } from './stories/Button'
-//console.log(animateButton)
+//console.log(animateButton);
 export { animateButton }
